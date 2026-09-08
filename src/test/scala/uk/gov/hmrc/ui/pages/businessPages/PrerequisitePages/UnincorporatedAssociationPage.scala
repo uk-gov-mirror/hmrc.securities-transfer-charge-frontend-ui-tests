@@ -60,7 +60,7 @@ object UnincorporatedAssociationPage extends BasePage {
     ensureChecked("feature-switch.ct-reference-stub")
 
     for (i <- 1 to noOfIterations) {
-      Thread.sleep(waitFor2Secs)
+      Thread.sleep(waitFor10Secs)
       try
         click(btnSubmit)
       catch {
